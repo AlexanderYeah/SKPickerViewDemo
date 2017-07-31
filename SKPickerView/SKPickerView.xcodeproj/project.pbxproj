@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03748B2F1F2F292A00831188 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03748B2E1F2F292900831188 /* main.m */; };
+		03748B321F2F292A00831188 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03748B311F2F292A00831188 /* AppDelegate.m */; };
+		03748B351F2F292A00831188 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03748B341F2F292A00831188 /* ViewController.m */; };
+		03748B381F2F292A00831188 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03748B361F2F292A00831188 /* Main.storyboard */; };
+		03748B3A1F2F292A00831188 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03748B391F2F292A00831188 /* Assets.xcassets */; };
+		03748B3D1F2F292A00831188 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03748B3B1F2F292A00831188 /* LaunchScreen.storyboard */; };
+		03748B481F2F292B00831188 /* SKPickerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03748B471F2F292B00831188 /* SKPickerViewTests.m */; };
+		03748B531F2F292B00831188 /* SKPickerViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03748B521F2F292B00831188 /* SKPickerViewUITests.m */; };
+		03748B611F2F294000831188 /* cityData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 03748B601F2F294000831188 /* cityData.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03748B441F2F292B00831188 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03748B221F2F292900831188 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03748B291F2F292900831188;
+			remoteInfo = SKPickerView;
+		};
+		03748B4F1F2F292B00831188 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03748B221F2F292900831188 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03748B291F2F292900831188;
+			remoteInfo = SKPickerView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03748B2A1F2F292900831188 /* SKPickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKPickerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03748B2E1F2F292900831188 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03748B301F2F292A00831188 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		03748B311F2F292A00831188 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		03748B331F2F292A00831188 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		03748B341F2F292A00831188 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		03748B371F2F292A00831188 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03748B391F2F292A00831188 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03748B3C1F2F292A00831188 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03748B3E1F2F292A00831188 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03748B431F2F292B00831188 /* SKPickerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKPickerViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03748B471F2F292B00831188 /* SKPickerViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKPickerViewTests.m; sourceTree = "<group>"; };
+		03748B491F2F292B00831188 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03748B4E1F2F292B00831188 /* SKPickerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKPickerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03748B521F2F292B00831188 /* SKPickerViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKPickerViewUITests.m; sourceTree = "<group>"; };
+		03748B541F2F292B00831188 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03748B601F2F294000831188 /* cityData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cityData.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03748B271F2F292900831188 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03748B401F2F292B00831188 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03748B4B1F2F292B00831188 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03748B211F2F292900831188 = {
+			isa = PBXGroup;
+			children = (
+				03748B2C1F2F292900831188 /* SKPickerView */,
+				03748B461F2F292B00831188 /* SKPickerViewTests */,
+				03748B511F2F292B00831188 /* SKPickerViewUITests */,
+				03748B2B1F2F292900831188 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03748B2B1F2F292900831188 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03748B2A1F2F292900831188 /* SKPickerView.app */,
+				03748B431F2F292B00831188 /* SKPickerViewTests.xctest */,
+				03748B4E1F2F292B00831188 /* SKPickerViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03748B2C1F2F292900831188 /* SKPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				03748B601F2F294000831188 /* cityData.plist */,
+				03748B301F2F292A00831188 /* AppDelegate.h */,
+				03748B311F2F292A00831188 /* AppDelegate.m */,
+				03748B331F2F292A00831188 /* ViewController.h */,
+				03748B341F2F292A00831188 /* ViewController.m */,
+				03748B361F2F292A00831188 /* Main.storyboard */,
+				03748B391F2F292A00831188 /* Assets.xcassets */,
+				03748B3B1F2F292A00831188 /* LaunchScreen.storyboard */,
+				03748B3E1F2F292A00831188 /* Info.plist */,
+				03748B2D1F2F292900831188 /* Supporting Files */,
+			);
+			path = SKPickerView;
+			sourceTree = "<group>";
+		};
+		03748B2D1F2F292900831188 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03748B2E1F2F292900831188 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		03748B461F2F292B00831188 /* SKPickerViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				03748B471F2F292B00831188 /* SKPickerViewTests.m */,
+				03748B491F2F292B00831188 /* Info.plist */,
+			);
+			path = SKPickerViewTests;
+			sourceTree = "<group>";
+		};
+		03748B511F2F292B00831188 /* SKPickerViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				03748B521F2F292B00831188 /* SKPickerViewUITests.m */,
+				03748B541F2F292B00831188 /* Info.plist */,
+			);
+			path = SKPickerViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03748B291F2F292900831188 /* SKPickerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03748B571F2F292B00831188 /* Build configuration list for PBXNativeTarget "SKPickerView" */;
+			buildPhases = (
+				03748B261F2F292900831188 /* Sources */,
+				03748B271F2F292900831188 /* Frameworks */,
+				03748B281F2F292900831188 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKPickerView;
+			productName = SKPickerView;
+			productReference = 03748B2A1F2F292900831188 /* SKPickerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03748B421F2F292B00831188 /* SKPickerViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03748B5A1F2F292B00831188 /* Build configuration list for PBXNativeTarget "SKPickerViewTests" */;
+			buildPhases = (
+				03748B3F1F2F292B00831188 /* Sources */,
+				03748B401F2F292B00831188 /* Frameworks */,
+				03748B411F2F292B00831188 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03748B451F2F292B00831188 /* PBXTargetDependency */,
+			);
+			name = SKPickerViewTests;
+			productName = SKPickerViewTests;
+			productReference = 03748B431F2F292B00831188 /* SKPickerViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		03748B4D1F2F292B00831188 /* SKPickerViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03748B5D1F2F292B00831188 /* Build configuration list for PBXNativeTarget "SKPickerViewUITests" */;
+			buildPhases = (
+				03748B4A1F2F292B00831188 /* Sources */,
+				03748B4B1F2F292B00831188 /* Frameworks */,
+				03748B4C1F2F292B00831188 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03748B501F2F292B00831188 /* PBXTargetDependency */,
+			);
+			name = SKPickerViewUITests;
+			productName = SKPickerViewUITests;
+			productReference = 03748B4E1F2F292B00831188 /* SKPickerViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03748B221F2F292900831188 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = AlexanderYeah;
+				TargetAttributes = {
+					03748B291F2F292900831188 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 7DC4XMJV5E;
+						ProvisioningStyle = Automatic;
+					};
+					03748B421F2F292B00831188 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 7DC4XMJV5E;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 03748B291F2F292900831188;
+					};
+					03748B4D1F2F292B00831188 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 7DC4XMJV5E;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 03748B291F2F292900831188;
+					};
+				};
+			};
+			buildConfigurationList = 03748B251F2F292900831188 /* Build configuration list for PBXProject "SKPickerView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03748B211F2F292900831188;
+			productRefGroup = 03748B2B1F2F292900831188 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03748B291F2F292900831188 /* SKPickerView */,
+				03748B421F2F292B00831188 /* SKPickerViewTests */,
+				03748B4D1F2F292B00831188 /* SKPickerViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03748B281F2F292900831188 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03748B3D1F2F292A00831188 /* LaunchScreen.storyboard in Resources */,
+				03748B3A1F2F292A00831188 /* Assets.xcassets in Resources */,
+				03748B381F2F292A00831188 /* Main.storyboard in Resources */,
+				03748B611F2F294000831188 /* cityData.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03748B411F2F292B00831188 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03748B4C1F2F292B00831188 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03748B261F2F292900831188 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03748B351F2F292A00831188 /* ViewController.m in Sources */,
+				03748B321F2F292A00831188 /* AppDelegate.m in Sources */,
+				03748B2F1F2F292A00831188 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03748B3F1F2F292B00831188 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03748B481F2F292B00831188 /* SKPickerViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03748B4A1F2F292B00831188 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03748B531F2F292B00831188 /* SKPickerViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03748B451F2F292B00831188 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03748B291F2F292900831188 /* SKPickerView */;
+			targetProxy = 03748B441F2F292B00831188 /* PBXContainerItemProxy */;
+		};
+		03748B501F2F292B00831188 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03748B291F2F292900831188 /* SKPickerView */;
+			targetProxy = 03748B4F1F2F292B00831188 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03748B361F2F292A00831188 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03748B371F2F292A00831188 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03748B3B1F2F292A00831188 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03748B3C1F2F292A00831188 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03748B551F2F292B00831188 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		03748B561F2F292B00831188 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03748B581F2F292B00831188 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7DC4XMJV5E;
+				INFOPLIST_FILE = SKPickerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AlexanderYeah.SKPickerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		03748B591F2F292B00831188 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7DC4XMJV5E;
+				INFOPLIST_FILE = SKPickerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AlexanderYeah.SKPickerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		03748B5B1F2F292B00831188 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7DC4XMJV5E;
+				INFOPLIST_FILE = SKPickerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AlexanderYeah.SKPickerViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKPickerView.app/SKPickerView";
+			};
+			name = Debug;
+		};
+		03748B5C1F2F292B00831188 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7DC4XMJV5E;
+				INFOPLIST_FILE = SKPickerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AlexanderYeah.SKPickerViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKPickerView.app/SKPickerView";
+			};
+			name = Release;
+		};
+		03748B5E1F2F292B00831188 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7DC4XMJV5E;
+				INFOPLIST_FILE = SKPickerViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AlexanderYeah.SKPickerViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SKPickerView;
+			};
+			name = Debug;
+		};
+		03748B5F1F2F292B00831188 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7DC4XMJV5E;
+				INFOPLIST_FILE = SKPickerViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AlexanderYeah.SKPickerViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SKPickerView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03748B251F2F292900831188 /* Build configuration list for PBXProject "SKPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03748B551F2F292B00831188 /* Debug */,
+				03748B561F2F292B00831188 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03748B571F2F292B00831188 /* Build configuration list for PBXNativeTarget "SKPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03748B581F2F292B00831188 /* Debug */,
+				03748B591F2F292B00831188 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		03748B5A1F2F292B00831188 /* Build configuration list for PBXNativeTarget "SKPickerViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03748B5B1F2F292B00831188 /* Debug */,
+				03748B5C1F2F292B00831188 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		03748B5D1F2F292B00831188 /* Build configuration list for PBXNativeTarget "SKPickerViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03748B5E1F2F292B00831188 /* Debug */,
+				03748B5F1F2F292B00831188 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03748B221F2F292900831188 /* Project object */;
+}
